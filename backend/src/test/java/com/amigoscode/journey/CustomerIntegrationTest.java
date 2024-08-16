@@ -24,7 +24,6 @@ public class CustomerIntegrationTest {
     @Autowired
     private WebTestClient webTestClient;
 
-
    private static final String URI = "/api/v1/customers";
 
     @Test
