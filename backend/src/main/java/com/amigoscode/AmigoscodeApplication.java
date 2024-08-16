@@ -16,7 +16,9 @@ import java.util.Random;
 public class AmigoscodeApplication {
 
 	public static void main(String[] args) {
+		System.out.println("hello");
 		SpringApplication.run(AmigoscodeApplication.class, args);
+
 	}
 
 	@Bean
