@@ -16,7 +16,6 @@ public class AmigoscodeApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AmigoscodeApplication.class, args);
 	}
-
 	@Bean
 	CommandLineRunner runner(CustomerRepository customerRepository){
 		return args -> {
