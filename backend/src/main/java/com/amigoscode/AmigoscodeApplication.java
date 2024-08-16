@@ -21,8 +21,6 @@ public class AmigoscodeApplication {
 
 	@Bean
 	CommandLineRunner runner(CustomerRepository customerRepository){
-
-
 		return args -> {
 			Faker faker = new Faker();
 			var name = faker.name();
